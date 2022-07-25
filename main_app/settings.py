@@ -1,6 +1,9 @@
+from flask import Flask
 import os
 from pathlib import Path
 from dotenv import load_dotenv
+
+app = Flask(__name__)
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 

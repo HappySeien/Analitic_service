@@ -1,2 +1,2 @@
-from main_app import app
-app.run(debug = True)
+import  main_app
+main_app.settings.app.run(debug = True)
